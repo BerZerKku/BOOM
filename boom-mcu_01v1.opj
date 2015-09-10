@@ -70,6 +70,26 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (R_0.25W
+      (FullPartName "R_0.25W.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SW_PUSHBTN
+      (FullPartName "SW_PUSHBTN.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (SHOTTKY
+      (FullPartName "SHOTTKY.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (HCPL181_v1
+      (FullPartName "HCPL181_v1.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
+    (CONN2
+      (FullPartName "CONN2.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (LM2574HVM-5.0
       (FullPartName "LM2574HVM-5.0.Normal")
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
@@ -86,16 +106,8 @@
       (FullPartName "CONN20.Normal")
       (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
       (DeviceIndex "0"))
-    (R_0.25W
-      (FullPartName "R_0.25W.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
     (RESISTOR
       (FullPartName "RESISTOR.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (SHOTTKY
-      (FullPartName "SHOTTKY.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (CAPACITOR
@@ -131,12 +143,19 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\boom-mcu_01v1.dsn")
-      (Path "Design Resources" ".\boom-mcu_01v1.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "d:\project\circuit\other\boom\boom-mcu_01v1.dsn")
+      (Path "Design Resources"
+         "d:\project\circuit\other\boom\boom-mcu_01v1.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "d:\project\circuit\other\boom\boom-mcu_01v1.dsn" "Design Cache")
       (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "d:\project\circuit\orcad\lib\ic.olb")
+      (Path "Design Resources" "Library"
+         "d:\project\circuit\orcad\lib\diode.olb")
       (Path "Outputs")
-      (Select "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\ic.olb"))
+      (Select "Design Resources"
+         "d:\project\circuit\other\boom\boom-mcu_01v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -144,22 +163,11 @@
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 893"))
       (Tab 0))
     (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 66 1215 81 550")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "2172 1025")
-        (Zoom "438"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
-      (Package "LM2574HVM-5.0"))
-    (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 88 1237 108 577")
-        (Scroll "514 1498")
-        (Zoom "220")
+        (Placement "44 2 3 -1 -1 -4 -28 88 1237 108 577")
+        (Scroll "322 1673")
+        (Zoom "232")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\OTHER\BOOM\BOOM-MCU_01V1.DSN")
       (Schematic "SCHEMATIC1")

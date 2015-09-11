@@ -70,6 +70,10 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (R_0.25W
       (FullPartName "R_0.25W.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
@@ -108,10 +112,6 @@
       (DeviceIndex "0"))
     (RESISTOR
       (FullPartName "RESISTOR.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (CAPACITOR
-      (FullPartName "CAPACITOR.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (XTAL
@@ -166,7 +166,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -28 88 1237 108 577")
-        (Scroll "322 1673")
+        (Scroll "0 1654")
         (Zoom "232")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\OTHER\BOOM\BOOM-MCU_01V1.DSN")

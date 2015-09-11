@@ -70,6 +70,10 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (EFUSE
+      (FullPartName "EFUSE.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (CAPACITOR
       (FullPartName "CAPACITOR.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
@@ -143,19 +147,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "d:\project\circuit\other\boom\boom-mcu_01v1.dsn")
-      (Path "Design Resources"
-         "d:\project\circuit\other\boom\boom-mcu_01v1.dsn" "SCHEMATIC1")
-      (Path "Design Resources"
-         "d:\project\circuit\other\boom\boom-mcu_01v1.dsn" "Design Cache")
+      (Path "Design Resources" ".\boom-mcu_01v1.dsn")
+      (Path "Design Resources" ".\boom-mcu_01v1.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\boom-mcu_01v1.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "d:\project\circuit\orcad\lib\ic.olb")
       (Path "Design Resources" "Library"
          "d:\project\circuit\orcad\lib\diode.olb")
       (Path "Outputs")
-      (Select "Design Resources"
-         "d:\project\circuit\other\boom\boom-mcu_01v1.dsn"))
+      (Select "Design Resources" ".\boom-mcu_01v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -165,9 +165,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -28 88 1237 108 577")
-        (Scroll "0 1654")
-        (Zoom "232")
+        (Placement "44 0 1 -1 -1 -4 -28 88 1237 108 577")
+        (Scroll "-81 418")
+        (Zoom "116")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\OTHER\BOOM\BOOM-MCU_01V1.DSN")
       (Schematic "SCHEMATIC1")

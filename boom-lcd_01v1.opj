@@ -62,7 +62,7 @@
       (Path "Design Resources" ".\boom-lcd_01v1.dsn")
       (Path "Design Resources" ".\boom-lcd_01v1.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\boom-lcd_01v1.dsn" "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources" ".\boom-lcd_01v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -72,8 +72,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 154 1043 189 654")
-        (Scroll "-17 380")
+        (Placement "44 2 3 -1 -1 -4 -28 154 1043 189 654")
+        (Scroll "-385 160")
         (Zoom "100")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\OTHER\BOOM\BOOM-LCD_01V1.DSN")

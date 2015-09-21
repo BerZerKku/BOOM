@@ -39,6 +39,9 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (BOT_1_NO_SIGN
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\TITLE.OLB")
+      (DeviceIndex "0"))
     (R_0.25W
       (FullPartName "R_0.25W.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
@@ -62,7 +65,7 @@
       (Path "Design Resources" ".\boom-lcd_01v1.dsn")
       (Path "Design Resources" ".\boom-lcd_01v1.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\boom-lcd_01v1.dsn"))
+      (Select "Design Resources" ".\boom-lcd_01v1.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -72,11 +75,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -28 154 1043 189 654")
-        (Scroll "-385 160")
+        (Placement "44 2 3 -1 -1 -4 -28 66 1503 81 576")
+        (Scroll "-385 0")
         (Zoom "100")
         (Occurrence "/"))
-      (Path "D:\PROJECT\CIRCUIT\OTHER\BOOM\BOOM-LCD_01V1.DSN")
+      (Path "D:\PROJECT\CIRCUIT\OTHER\QUEST-ROOM\BOOM-LCD_01V1.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (MPSSessionName "Shcheblykin"))

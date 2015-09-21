@@ -70,6 +70,9 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (BOT_1_NO_SIGN
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\TITLE.OLB")
+      (DeviceIndex "0"))
     (SUPRESSOR
       (FullPartName "SUPRESSOR.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
@@ -153,18 +156,27 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\boom-mcu_01v1.dsn")
       (Path "Design Resources" ".\boom-mcu_01v1.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\boom-mcu_01v1.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "d:\project\circuit\orcad\lib\ic.olb")
       (Path "Design Resources" "Library"
          "d:\project\circuit\orcad\lib\diode.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\boom-mcu_01v1.dsn"))
+      (Select "Design Resources" ".\boom-mcu_01v1.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 893"))
-      (Tab 0)))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -28 176 1065 216 711")
+        (Scroll "-257 340")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\CIRCUIT\OTHER\QUEST-ROOM\BOOM-MCU_01V1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
   (MPSSessionName "Shcheblykin")
   (ISPCBBASICLICENSE "false"))

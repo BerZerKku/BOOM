@@ -1,0 +1,11 @@
+*.*,*
+*.dat
+*.dml
+*.cfg
+*.log
+*.dbk
+*.tag
+*.clp
+*.ctl
+*.plt
+log/

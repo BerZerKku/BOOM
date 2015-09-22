@@ -41,6 +41,30 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (SW2
+      (FullPartName "SW2.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SUPRESSOR
+      (FullPartName "SUPRESSOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R_1W
+      (FullPartName "R_1W.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R_0.25W
+      (FullPartName "R_0.25W.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MOS_n_channel_induced_1
+      (FullPartName "MOS_n_channel_induced_1.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (FINDER32_21
       (FullPartName "FINDER32_21.Normal")
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
@@ -57,20 +81,8 @@
       (FullPartName "SUPRESSOR_POL.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (SUPRESSOR
-      (FullPartName "SUPRESSOR.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
     (LED
       (FullPartName "LED.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (R_0.25W
-      (FullPartName "R_0.25W.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (RESISTOR
-      (FullPartName "RESISTOR.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (SHOTTKY
@@ -120,17 +132,7 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 408 0 893"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -4 -28 66 1507 81 580")
-        (Scroll "506 807")
-        (Zoom "232")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\CIRCUIT\OTHER\QUEST-ROOM\PHODE-CODE_01V1.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 881"))
+      (Tab 0)))
   (ISPCBBASICLICENSE "false")
   (MPSSessionName "Shcheblykin"))

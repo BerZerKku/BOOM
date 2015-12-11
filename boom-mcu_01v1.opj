@@ -70,6 +70,14 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (R_0.125W
+      (FullPartName "R_0.125W.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (BOT_1_NO_SIGN
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\TITLE.OLB")
       (DeviceIndex "0"))
@@ -79,10 +87,6 @@
       (DeviceIndex "0"))
     (EFUSE
       (FullPartName "EFUSE.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (CAPACITOR
-      (FullPartName "CAPACITOR.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (R_0.25W
@@ -139,10 +143,6 @@
     (GND
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
       (DeviceIndex "0"))
-    (R_0.125W
-      (FullPartName "R_0.125W.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
     ("USB A 18 SMT"
       (FullPartName "USB A 18 SMT.Normal")
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SOCKET.OLB")
@@ -161,7 +161,7 @@
       (Path "Design Resources" "Library"
          "d:\project\circuit\orcad\lib\diode.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\boom-mcu_01v1.dsn" "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources" ".\boom-mcu_01v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -172,8 +172,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -28 176 1065 216 711")
-        (Scroll "-257 340")
-        (Zoom "100")
+        (Scroll "56 1174")
+        (Zoom "200")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\OTHER\QUEST-ROOM\BOOM-MCU_01V1.DSN")
       (Schematic "SCHEMATIC1")

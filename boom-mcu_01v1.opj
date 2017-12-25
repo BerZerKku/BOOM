@@ -70,6 +70,14 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "\\WHISKEY\CADENCE\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "\\WHISKEY\CADENCE\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (R_0.125W
       (FullPartName "R_0.125W.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
@@ -84,10 +92,6 @@
       (DeviceIndex "0"))
     ("SW TACT-SPST"
       (FullPartName "SW TACT-SPST.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (CAPACITOR
-      (FullPartName "CAPACITOR.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (BOT_1_NO_SIGN
@@ -125,10 +129,6 @@
       (FullPartName "LM2574HVM-5.0.Normal")
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\IC.OLB")
       (DeviceIndex "0"))
-    (INDUCTOR
-      (FullPartName "INDUCTOR.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
     (CAPACITOR_POL
       (FullPartName "CAPACITOR_POL.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
@@ -162,17 +162,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "D:\Project\Circuit\other\Quest-room\boom-mcu_01v1.dsn")
-      (Path "Design Resources"
-         "D:\Project\Circuit\other\Quest-room\boom-mcu_01v1.dsn" "SCHEMATIC1")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "d:\project\circuit\orcad\lib\ic.olb")
-      (Path "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\diode.olb")
+      (Path "Design Resources" ".\boom-mcu_01v1.dsn")
+      (Path "Design Resources" ".\boom-mcu_01v1.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources"
-         "D:\Project\Circuit\other\Quest-room\boom-mcu_01v1.dsn"))
+      (Select "Design Resources" ".\boom-mcu_01v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -183,7 +176,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -28 66 1247 81 576")
-        (Scroll "-305 598")
+        (Scroll "-305 51")
         (Zoom "120")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\OTHER\QUEST-ROOM\BOOM-MCU_01V1.DSN")
